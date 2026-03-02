@@ -1,0 +1,13 @@
+{
+  "name": "attacker-c2-server",
+  "version": "1.0.0",
+  "description": "POC Attacker C&C Server - Receives exfiltrated keystrokes and cookies",
+  "main": "attacker.js",
+  "scripts": {
+    "start": "node attacker.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}

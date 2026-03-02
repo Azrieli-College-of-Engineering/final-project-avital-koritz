@@ -1,0 +1,14 @@
+{
+  "name": "victim-bank-server",
+  "version": "1.0.0",
+  "description": "POC Victim Server - Vulnerable bank site with HttpOnly session cookie",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "cookie-parser": "^1.4.6"
+  }
+}
