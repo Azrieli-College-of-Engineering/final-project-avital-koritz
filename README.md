@@ -12,12 +12,9 @@ then use it for session hijacking.
 Project structure
 -----------------
 final project/
-  victim-server/        (Bank website, port 3000)
-  attacker-server/      (C&C server, port 4000)
-  extension/            (Manifest V3 extension)
-  FINAL_REPORT.md       (final report text)
-  generate_pdf.py       (optional: generates FINAL_REPORT.pdf)
-
+  - victim-server/        (Bank website, port 3000)
+  - attacker-server/      (C&C server, port 4000)
+  - extension/            (Manifest V3 extension)
 
 Prerequisites
 -------------
